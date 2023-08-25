@@ -5,7 +5,7 @@ $arComponentDescription = array(
 	"NAME" => GetMessage("CUSTOM"),
 	"DESCRIPTION" => GetMessage("CUSTOM_NEWS"),
 	"PATH" => array(
-		"ID" => "Мой компонент",
+		"ID" => GetMessage("MAIN_COMPONENT"),
 		
 	),
 );
