@@ -1,3 +1,0 @@
-<?
-$sSectionName="form.result.new";
-?>
