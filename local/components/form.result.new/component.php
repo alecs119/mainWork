@@ -939,6 +939,7 @@ if (CModule::IncludeModule("form"))
 
 		// include default template
 		$this->IncludeComponentTemplate();
+		// $this->addExternalCss("/local/components/form.result.new/templates/.default/script.js");
 	}
 	else
 	{
