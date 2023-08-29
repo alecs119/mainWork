@@ -96,29 +96,6 @@ if ($arResult["isFormErrors"] == "Y") : ?><?= $arResult["FORM_ERRORS_TEXT"]; ?><
 
 <?php } ?>
 
-<script>
-	let input = document.querySelectorAll("input");
-
-	input.forEach(elem => {
-		elem.classList.add("input__input");
-		elem.classList.remove("inputtext");
-	});
-
-	let inputtextarea = document.querySelectorAll("textarea");
-
-	inputtextarea.forEach(element => {
-		element.classList.add("input__input");
-		element.classList.remove("inputtextarea");
-	});
-
-</script>
-
-
-
-
-
-
-
 <!-- Тут оставил закомментированный код. Не понлностью в нем разобрался. В файле component.php тоже пока не разобрался для чего такое количество всего написано) -->
 
 <!-- <table class="form-table data-table">
