@@ -32,8 +32,8 @@ if ($arResult["isFormErrors"] == "Y") : ?><?= $arResult["FORM_ERRORS_TEXT"]; ?><
 	</table>
 
 	<br />
-
-	<div class="contact-form">
+<!-- тут подключил шрифт, но скорее всего это не правильно. -->
+	<div class="contact-form" style="font-family: Gilroy, Sans Serif;">
 		<div class="contact-form__head">
 			<div class="contact-form__head-title">Связаться</div>
 			<div class="contact-form__head-text">Наши сотрудники помогут выполнить подбор услуги и расчет цены с учетом ваших требований</div>
