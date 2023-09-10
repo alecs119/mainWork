@@ -1,0 +1,15 @@
+.content_short {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.content_short img {
+    width: 100px;
+}
+
+.content_short h1 {
+    margin: 0;
+    padding: 0 15px;
+    color: rgb(90, 142, 201);
+}
